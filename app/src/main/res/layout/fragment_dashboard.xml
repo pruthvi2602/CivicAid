@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment"
+    android:background="@color/dal_white">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:id="@+id/s_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="-27dp"
+            tools:layout_editor_absoluteY="-17dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/cat_logo_1"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="-70dp"
+                        android:src="@drawable/cat_logo_1"
+                        app:shapeAppearanceOverlay="@style/circule">
+                    </com.google.android.material.imageview.ShapeableImageView>
+
+                    <TextView
+                        android:layout_width="244dp"
+                        android:layout_height="68dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Department of Health
+                        and Family Welfare"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_2"
+                android:layout_below="@id/cat_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/cat_logo_2"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="-70dp"
+                        android:src="@drawable/cat_logo_2"
+                        app:shapeAppearanceOverlay="@style/circule">
+                    </com.google.android.material.imageview.ShapeableImageView>
+
+                    <TextView
+                        android:layout_width="244dp"
+                        android:layout_height="68dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Department Of Agriculture, Farmers Welfare And Co-Operation"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_3"
+                android:layout_below="@id/cat_2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/cat_logo_3"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="-70dp"
+                        android:src="@drawable/cat_logo_3"
+                        app:shapeAppearanceOverlay="@style/circule">
+                    </com.google.android.material.imageview.ShapeableImageView>
+
+                    <TextView
+                        android:layout_width="244dp"
+                        android:layout_height="68dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Department Of Education"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+                    </TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_4"
+                android:layout_below="@id/cat_3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/cat_logo_4"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="-70dp"
+                        android:src="@drawable/cat_logo_4"
+                        app:shapeAppearanceOverlay="@style/circule">
+                    </com.google.android.material.imageview.ShapeableImageView>
+
+                    <TextView
+                        android:layout_width="244dp"
+                        android:layout_height="68dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Department Of Labour And Employment"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cat_5"
+                android:layout_below="@id/cat_4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/cat_logo_5"
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="-70dp"
+                        android:src="@drawable/cat_logo_5"
+                        app:shapeAppearanceOverlay="@style/circule">
+                    </com.google.android.material.imageview.ShapeableImageView>
+
+                    <TextView
+                        android:layout_width="244dp"
+                        android:layout_height="68dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Department Of Sports, Youth
+                        And Cultural Activities "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+                    </TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/text_dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="920dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

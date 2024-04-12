@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Scheme_01</string>
+    <string name="title_home">CivicAid</string>
+    <string name="title_dashboard">Shemes</string>
+    <string name="title_notifications">You</string>
+    <string name="CivicAid" />
+</resources>
